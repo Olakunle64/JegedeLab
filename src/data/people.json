@@ -1,0 +1,70 @@
+{
+  "pi": {
+    "name": "Dr. Olukayode O. Jegede",
+    "title": "Principal Investigator",
+    "role": "Assistant Professor of Environmental Toxicology",
+    "photo": "/images/jegede.jpg",
+    "bio": "Dr. Jegede is an Assistant Professor in the Department of Environmental Toxicology at UC Davis. His research focuses on understanding the ecological impacts of environmental pollutants through the study of soil bioindicators. He specializes in assessing the effects of pesticides, heavy metals, PFAS, and microplastics on soil invertebrates.",
+    "email": "ojegede@ucdavis.edu",
+    "phone": "(530) 752-1086",
+    "office": "4138 Meyer Hall",
+    "address": "One Shields Avenue, Davis, CA 95616",
+    "scholar": "https://scholar.google.com/citations?user=jegede",
+    "researchFocus": "Environmental toxicology, soil ecotoxicology, bioindicators, pollutant effects on invertebrates"
+  },
+  "graduateStudents": [
+    {
+      "id": 1,
+      "name": "Isiaka Salau",
+      "role": "Master's Student",
+      "photo": "/images/isiaka-salau.jpg",
+      "researchFocus": "Effects of PFAS on soil invertebrate communities",
+      "email": "iosalau@ucdavis.edu",
+      "bio": "Isiaka is a Master's student investigating the long-term effects of per- and polyfluoroalkyl substances (PFAS) on soil invertebrate communities. His research aims to understand how these persistent pollutants impact soil biodiversity and ecosystem function. He uses advanced analytical techniques to measure PFAS concentrations and assess their ecological consequences."
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "role": "PhD Student",
+      "photo": "/images/michael-chen.jpg",
+      "researchFocus": "Pesticide toxicity in agricultural soils",
+      "email": "mchen@ucdavis.edu",
+      "bio": "Michael is a PhD candidate focusing on pesticide toxicity in agricultural soils. His dissertation research examines the interactions between multiple pesticides and their combined effects on non-target soil organisms. He is particularly interested in developing risk assessment frameworks that better protect soil ecosystems while maintaining agricultural productivity."
+    },
+    {
+      "id": 3,
+      "name": "Sarah Johnson",
+      "role": "Master's Student",
+      "photo": "/images/sarah-johnson.jpg",
+      "researchFocus": "Microplastic contamination and soil health",
+      "email": "sjohnson@ucdavis.edu",
+      "bio": "Sarah is a Master's student studying microplastic contamination and its effects on soil health. Her research focuses on understanding how microplastics interact with soil biota and affect nutrient cycling processes. She combines field sampling with laboratory experiments to assess the ecological risks posed by microplastic pollution in terrestrial environments."
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1,
+      "name": "Dr. Emily Rodriguez",
+      "role": "PhD Alumni (2022)",
+      "photo": "/images/emily-rodriguez.jpg",
+      "researchFocus": "Metal toxicity in soil ecosystems",
+      "currentPosition": "Postdoctoral Researcher, Stanford University",
+      "bio": "Dr. Rodriguez completed her PhD in 2022, focusing on metal toxicity in soil ecosystems. Her dissertation work examined the mechanisms of metal accumulation and toxicity in soil invertebrates, with particular emphasis on cadmium and lead. She developed novel biomarkers for assessing metal stress in soil organisms. Currently, she continues her research at Stanford University, investigating the impacts of heavy metal contamination on soil microbial communities."
+    },
+    {
+      "id": 2,
+      "name": "Dr. David Kim",
+      "role": "PhD Alumni (2021)",
+      "photo": "/images/david-kim.jpg",
+      "researchFocus": "Pesticide risk assessment",
+      "currentPosition": "Research Scientist, EPA",
+      "bio": "Dr. Kim earned his PhD in 2021, specializing in pesticide risk assessment. His research focused on developing improved methods for evaluating pesticide impacts on soil ecosystems, with emphasis on sublethal effects and long-term exposure scenarios. He published several influential papers on neonicotinoid toxicity to soil invertebrates. He now works as a Research Scientist at the EPA, where he applies his expertise to inform environmental policy and regulation."
+    }
+  ]
+}
+
+
+
+
+
+

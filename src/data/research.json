@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Pesticide Toxicity in Soil Ecosystems",
+    "description": "Investigating the effects of pesticides, including neonicotinoids and rodenticides, on soil invertebrates such as Collembola and earthworms. Our research evaluates survival, reproduction, and behavioral responses to understand ecological risks.",
+    "keywords": ["Pesticides", "Soil Invertebrates", "Toxicity Testing"],
+    "publications": [1, 2, 5]
+  },
+  {
+    "id": 2,
+    "title": "Heavy Metal Contamination and Soil Health",
+    "description": "Assessing the impact of heavy metals (e.g., nickel, cadmium) on soil bioindicators. Studies examine how soil properties and aging time influence metal bioavailability and toxicity to soil organisms.",
+    "keywords": ["Heavy Metals", "Bioavailability", "Soil Properties"],
+    "publications": [4]
+  },
+  {
+    "id": 3,
+    "title": "PFAS Contamination in Agricultural Soils",
+    "description": "Exploring the presence and effects of per- and polyfluoroalkyl substances (PFAS) in agricultural environments. Research focuses on understanding how these persistent pollutants affect soil invertebrate communities and ecosystem functions.",
+    "keywords": ["PFAS", "Agricultural Soils", "Persistent Pollutants"],
+    "publications": []
+  },
+  {
+    "id": 4,
+    "title": "Microplastic Pollution and Soil Invertebrates",
+    "description": "Examining the ecological impacts of microplastic contamination on soil-dwelling organisms. This research aims to understand how microplastics affect soil structure, invertebrate behavior, and ecosystem health.",
+    "keywords": ["Microplastics", "Soil Structure", "Ecosystem Health"],
+    "publications": []
+  },
+  {
+    "id": 5,
+    "title": "One-Health Approach to Environmental Toxicology",
+    "description": "Integrating human, animal, and environmental health perspectives in toxicology research. Our work connects soil health, ecosystem integrity, and public health outcomes through interdisciplinary approaches.",
+    "keywords": ["One-Health", "Interdisciplinary Research", "Public Health"],
+    "publications": []
+  }
+]
+
+
+
+
+
+

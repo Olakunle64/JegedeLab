@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Growth Chamber and Incubator Setup",
+    "description": "Our state-of-the-art growth chamber and incubator system for controlled environmental studies, featuring specialized trays for sample organization.",
+    "image": "/images/gallery/Collecting soil_Kayode.jpeg",
+    "category": "Lab Equipment"
+  },
+  {
+    "id": 2,
+    "title": "Soil Invertebrate Research",
+    "description": "Research containers used for studying soil invertebrates and their responses to environmental stressors in controlled laboratory conditions.",
+    "image": "/images/gallery/Honeybee research.jpeg",
+    "category": "Research"
+  },
+  {
+    "id": 3,
+    "title": "Field Sampling in Vineyard",
+    "description": "Field research activities in vineyard settings, collecting soil samples to study the impact of agricultural practices on soil ecosystems.",
+    "image": "/images/gallery/Collecting soil_Mariana.jpeg",
+    "category": "Field Work"
+  },
+  {
+    "id": 4,
+    "title": "Soil Auger Sampling",
+    "description": "Using specialized soil augers to collect samples for analysis, demonstrating our field research methodology in agricultural landscapes.",
+    "image": "/images/gallery/Soil invert extractor.jpeg",
+    "category": "Field Work"
+  }
+]
+
