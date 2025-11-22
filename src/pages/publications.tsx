@@ -40,9 +40,9 @@ export default function Publications() {
                 year={publication.year}
                 title={publication.title}
                 journal={publication.journal}
-                doi={publication.doi}
-                volume={publication.volume}
-                pages={publication.pages}
+                doi={publication.doi || ''}
+                volume={publication.volume || undefined}
+                pages={publication.pages || undefined}
               />
             ))}
           </div>
