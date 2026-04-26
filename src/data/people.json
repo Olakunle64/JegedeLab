@@ -24,12 +24,12 @@
     },
     {
       "id": 2,
-      "name": "Michael Chen",
-      "role": "PhD Student",
-      "photo": "/images/michael-chen.jpg",
-      "researchFocus": "Pesticide toxicity in agricultural soils",
+      "name": "Meena Pandey",
+      "role": "Master's Candidate",
+      "photo": "/images/Meena.jpg",
+      "researchFocus": "Soil ecotoxicology, vineyard soil habitat quality, and pollinator health",
       "email": "mchen@ucdavis.edu",
-      "bio": "Michael is a PhD candidate focusing on pesticide toxicity in agricultural soils. His dissertation research examines the interactions between multiple pesticides and their combined effects on non-target soil organisms. He is particularly interested in developing risk assessment frameworks that better protect soil ecosystems while maintaining agricultural productivity."
+      "bio": "Meena grew up in the beautiful city of Kathmandu, Nepal, and earned her B.S. in Agriculture from Tribhuvan University. Meena is an M.S. candidate in the Jegede Lab, where she is working on two projects: soil ecotoxicology and the valorization of pomegranate peels to improve pollinator health. She seeks to assess the habitat quality of Californian vineyard soils and how it influences the resilience of soil biodiversity to pesticides and metals. This work helps us understand how Californian vineyard soils protect soil biodiversity from the effects of contamination through toxicokinetic or toxicodynamic processes. Her second research focus examines whether pomegranate peel extracts can be optimally used as a sustainable dietary supplement to improve honeybee immunity, antioxidant capacity, pesticide resilience, and overall colony health while valorizing agricultural waste. When she is not in front of her computer, Meena enjoys cooking wholesome Nepali cuisine, spending time in the kitchen, and catching up on sleep, which she proudly considers one of her most underrated productivity tools."
     },
     {
       "id": 3,
@@ -62,9 +62,3 @@
     }
   ]
 }
-
-
-
-
-
-
