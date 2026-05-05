@@ -2,10 +2,19 @@
 
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
 import ResearchCard from '@/components/ResearchCard';
-import researchData from '@/data/research.json';
+import { ResearchItem, loadResearchData } from '@/data/loaders';
 
 export default function Research() {
+  const [researchData, setResearchData] = useState<ResearchItem[]>([]);
+
+  useEffect(() => {
+    loadResearchData()
+      .then(setResearchData)
+      .catch(() => setResearchData([]));
+  }, []);
+
   return (
     <>
       <Head>

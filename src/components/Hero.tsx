@@ -37,7 +37,7 @@ const Hero = ({ galleryItems = [] }: HeroProps) => {
             Jegede Lab
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-200">
-            UC Davis Environmental Toxicology
+            UC Davis Molecular Biosciences & Environmental Toxicology
           </p>
           <p className="text-lg md:text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
             Exploring the ecological impacts of pollutants through soil bioindicators.

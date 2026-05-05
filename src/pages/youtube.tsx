@@ -2,12 +2,28 @@
 
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
 import YouTubeCard from '@/components/YouTubeCard';
 import NewsCard from '@/components/NewsCard';
-import youtubeData from '@/data/youtube.json';
-import newsData from '@/data/news.json';
+import { NewsItem, YouTubeItem, loadNewsData, loadYouTubeData } from '@/data/loaders';
 
 export default function YouTube() {
+  const [youtubeData, setYoutubeData] = useState<YouTubeItem[]>([]);
+  const [newsData, setNewsData] = useState<NewsItem[]>([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const [videos, news] = await Promise.all([loadYouTubeData(), loadNewsData()]);
+      setYoutubeData(videos);
+      setNewsData(news);
+    };
+
+    loadData().catch(() => {
+      setYoutubeData([]);
+      setNewsData([]);
+    });
+  }, []);
+
   return (
     <>
       <Head>

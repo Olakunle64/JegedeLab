@@ -22,6 +22,8 @@ const Footer = () => {
               />
             </Link>
             <p className="text-gray-300 mb-4">
+              Department of Molecular Biosciences<br />
+              Weil School of Veterinary Medicine<br />
               Department of Environmental Toxicology<br />
               UC Davis
             </p>
@@ -59,7 +61,15 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Contact</h4>
             <p className="text-gray-300 text-sm mb-2">
+              Department of Molecular Biosciences<br />
+              Weil School of Veterinary Medicine<br />
               Department of Environmental Toxicology<br />
+              <br />
+              Primary Office:<br />
+              1089 Veterinary Medicine Drive<br />
+              Davis, CA 95616<br />
+              <br />
+              Secondary Office:<br />
               4138 Meyer Hall<br />
               One Shields Avenue<br />
               Davis, CA 95616

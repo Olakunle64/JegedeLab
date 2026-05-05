@@ -3,21 +3,36 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
+import { useEffect, useMemo, useState } from 'react';
 import Hero from '@/components/Hero';
 import ResearchCard from '@/components/ResearchCard';
-import researchData from '@/data/research.json';
-import galleryData from '@/data/gallery.json';
+import { GalleryItem, ResearchItem, loadGalleryData, loadResearchData } from '@/data/loaders';
 
 export default function Home() {
-  // Get first 3 research areas for homepage
-  const featuredResearch = researchData.slice(0, 3);
+  const [researchData, setResearchData] = useState<ResearchItem[]>([]);
+  const [galleryData, setGalleryData] = useState<GalleryItem[]>([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const [research, gallery] = await Promise.all([loadResearchData(), loadGalleryData()]);
+      setResearchData(research);
+      setGalleryData(gallery);
+    };
+
+    loadData().catch(() => {
+      setResearchData([]);
+      setGalleryData([]);
+    });
+  }, []);
+
+  const featuredResearch = useMemo(() => researchData.slice(0, 3), [researchData]);
 
   return (
     <>
       <Head>
-        <title>Jegede Lab | UC Davis Environmental Toxicology</title>
-        <meta name="description" content="Exploring the ecological impacts of pollutants through soil bioindicators. Research lab of Dr. Olukayode O. Jegede, Assistant Professor of Environmental Toxicology at UC Davis." />
-        <meta name="keywords" content="environmental toxicology, soil bioindicators, pollutants, UC Davis, research lab" />
+        <title>Jegede Laboratory</title>
+        <meta name="description" content="Exploring the ecological impacts of pollutants through soil bioindicators. Research lab of Dr. Olukayode O. Jegede, Assistant Professor in Molecular Biosciences and Environmental Toxicology at UC Davis." />
+        <meta name="keywords" content="molecular biosciences, environmental toxicology, soil bioindicators, pollutants, UC Davis, research lab" />
       </Head>
 
       <Hero galleryItems={galleryData} />

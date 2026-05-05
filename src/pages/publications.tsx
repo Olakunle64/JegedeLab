@@ -2,12 +2,23 @@
 
 import { motion } from 'framer-motion';
 import Head from 'next/head';
+import { useEffect, useMemo, useState } from 'react';
 import PublicationCard from '@/components/PublicationCard';
-import publicationsData from '@/data/publications.json';
+import { PublicationItem, loadPublicationsData } from '@/data/loaders';
 
 export default function Publications() {
-  // Sort publications by year (newest first)
-  const sortedPublications = [...publicationsData].sort((a, b) => b.year - a.year);
+  const [publicationsData, setPublicationsData] = useState<PublicationItem[]>([]);
+
+  useEffect(() => {
+    loadPublicationsData()
+      .then(setPublicationsData)
+      .catch(() => setPublicationsData([]));
+  }, []);
+
+  const sortedPublications = useMemo(
+    () => [...publicationsData].sort((a, b) => b.year - a.year),
+    [publicationsData]
+  );
 
   return (
     <>
